@@ -1,0 +1,20 @@
+/* This is a css comment */
+/* ? question*/
+/* ! */
+/* TODO */
+/* *  */
+
+
+body
+{
+    background-color: red;
+}
+h1
+{
+    color: blue;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+}
