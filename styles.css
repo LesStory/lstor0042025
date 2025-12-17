@@ -138,7 +138,7 @@ audio {
   border: 5px solid red;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 600px) {
   #pageheader nav ul {
     background-color: none;
     margin-top: 2rem;
@@ -149,7 +149,7 @@ audio {
   }
 
   #pagecontent {
-    background-color: yellow;
+    background-color: goldenrod;
   }
   #career {
     background-color: darkred;
