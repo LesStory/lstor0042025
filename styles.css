@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.634);
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 }
 
 #pageheader {
-  background-color: gold;
+  background-color: rgb(255, 0, 0);
   min-height: auto;
   padding: 1rem;
 }
@@ -99,7 +99,7 @@ blockquote + span {
 }
 
 #semester2 {
-  background-color: brown;
+  background-color: rgba(255, 166, 0, 0.584);
   min-height: 10rem;
   padding: 1rem;
 }
@@ -158,7 +158,7 @@ audio {
 
 @media screen and (min-width: 1000px) {
   #pagecontent {
-    background-color: orange;
+    background-color: rgba(255, 0, 0, 0);
   }
   #career {
     background-color: black;
