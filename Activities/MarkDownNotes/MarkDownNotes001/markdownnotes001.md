@@ -1,6 +1,8 @@
 # Pasta
 
-## Steps On How To Cook Pasta Properly
+## Culinary Arts Period 6-7 Les Story
+
+### Steps On How To Cook Pasta Properly
 
 1. Make sure when ever you cook pasta you out oil and salt in your water
 1. Put it to the boiling point which is 205-210 Degress
