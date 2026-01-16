@@ -21,8 +21,12 @@
         padding: 0.5rem;
       }
 
-      #card {
+      #cards {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
       }
+
       .card {
         background-color: lightblue;
         border: 3px solid black;
@@ -76,19 +80,20 @@
     </div>
 
     <h2>Cards</h2>
-    <div class="card">
-      <h3>Card Title 1</h3>
-      <p>This is a description for card 1.</p>
+    <div id="cards">
+      <div class="card">
+        <h3>Card Title 1</h3>
+        <p>This is a description for card 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 2</h3>
+        <p>This is a description for card 2.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 3</h3>
+        <p>This is a description for card 3.</p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Card Title 2</h3>
-      <p>This is a description for card 2.</p>
-    </div>
-    <div class="card">
-      <h3>Card Title 3</h3>
-      <p>This is a description for card 3.</p>
-    </div>
-
     <h2>Link Lists</h2>
     <ul>
       <li><a href="https://google.com/">Google</a></li>
