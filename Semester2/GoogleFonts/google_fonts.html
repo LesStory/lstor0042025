@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Its A Dog's Life</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<style>
+    body
+    {
+        background-color: black;
+        color: white;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header
+    {
+        background-color: #052524;
+        padding:15px 30px 15px 30px;
+        border-bottom: 5px solid white;
+    }
+    header h1
+    {
+        font-size: 1.5rem;
+    }
+    /* Hero Section */
+    .hero
+    {
+        height: 85vh;
+        /* background-image: linear-gradient(red,blue,white); */
+        background-image: linear-gradient(rgba(0, 0, 0,   0.5), rgba(0, 0, 0, 0.501)), url(Images/dog_on_couch.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-content
+    {
+        background-color: none;
+    }
+    .hero-content h2
+    {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .hero-content p
+    {
+        font-size:1.2rem;
+        margin-bottom: 20px;
+    }
+    .hero-content a
+    {
+        display: inline-block;
+        background-color: crimson;
+        padding: 12px 24px 12px 24px;
+        color: whitesmoke;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .hero-content a:hover
+    {
+        background-color: darkred;
+    }
+
+    .intro
+    {
+        padding: 30px;
+    }
+    .intro-content
+    {
+        background-color: white;
+        color:#333;
+        line-height: 1.7;
+        padding-top: 1rem 1.5rem;
+        border-radius: 10px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    /* Cards */
+
+    .services
+    {
+        background-color: rgb(0, 0, 0);
+        padding: 50px 30px;
+    }
+    .services h2
+    {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    .fb-cards
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .card
+    {
+        background-color: white;
+        color:#333;
+        text-align: center;
+        border-radius: 10px;
+        border: 5px solid silver;
+        width: 300px;
+        padding: 20px;
+    }
+    .card h3
+    {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card p
+    {
+
+    }
+
+    .card a
+    {
+        display: inline-block;
+        background-color: crimson;
+        padding: 12px 24px 12px 24px;
+        color: whitesmoke;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+
+    }
+    footer
+    {
+        background-color: #3E0D0A;
+        padding: 20px;
+        text-align: center;
+        border-top: 5px solid white;
+    }
+    /* Google Fonts */
+    .fascinate-inline-regular 
+        {
+        font-family: "Fascinate Inline", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .roboto-mono-uniquifier 
+        {
+            font-family: "Roboto Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+</style>
+<body>
+    <header>
+        <h1 class="fascinate-inline-regular">Its A Dog's Life</h1>
+    </header>
+
+    <main class="roboto-mono-uniquifier">
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="fascinate-inline-regular">Welcome To It's A Dog's Life</h2>
+                <p>We Love Dog's More Then Humans</p>
+                <a href="#">Get Started</a>
+            </div>
+        </section>
+
+
+        <section class="intro">
+            <div class="intro-content">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque numquam ut eos est hic aut obcaecati quae earum pariatur voluptatibus, provident nihil at quas, fugit voluptate ad qui. Iusto necessitatibus quidem error, obcaecati cupiditate vitae!</p>
+            </div>
+        </section>
+
+
+        <section class="services">
+            <h2 class="fascinate-inline-regular">Our services</h2>
+            <div class="fb-cards">
+            <div class="card">
+                <h3 class="fascinate-inline-regular">Card One</h3>
+                <p>This Is A Card. Add A Short Description</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="card">
+                <h3 class="fascinate-inline-regular">Card Two</h3>
+                <p>This Is A Card. Add A Short Description</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="card">
+                <h3 class="fascinate-inline-regular">Card Three</h3>
+                <p>This Is A Card. Add A Short Description</p>
+                <a href="#">Read More</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Its A Dog's Life. All Right Reserved</p>
+    </footer>
+</body>
+</html>
