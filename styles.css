@@ -169,6 +169,27 @@ audio {
   background-color: red;
   border: 1rem solid black;
 }
+  
+   .fascinate-inline-regular 
+   {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 800;
+  font-style: bold;
+  }
+
+  .bitcount-grid-double-uniquifier {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
 
 @media screen and (min-width:500px)
 {
